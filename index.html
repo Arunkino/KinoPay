@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPAY Home</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/details-more.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: beige;">
+    
+        <header class="row" id="head-section">
+            
+                <div class="col-md-2">
+                    <button id="more-button" onclick="toggleMenu()"><i id="more-icon-id" class="icons gg-details-more more-icon" title="More Options"></i></button>
+                </div>
+                <div class="col-md-5  logo-head">
+                    <a href="index.html"><img id="logo-head-img" title="Home" src="images/Title-logo.png" alt="Kino Pay LOGO"></a>
+                    
+                </div>
+                
+                <div class="col-md-5  search-box">
+                    <input id="search-bar" type="text" placeholder="Search" >
+                    <button  id="search-icon"><i class="gg-search" title="Search"></i></button>
+                </div>
+                <br>
+                <p id="text-place"></p>
+            
+        </header>
+        
+        <!-- Header ends here--- -->
+           
+        <!-- Toggle menu--- -->
+        <div class="row first-row">
+            <div id="left-section" class="col-2 col-md-2 col-lg-3 "> 
+                <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="support.html">Help and Support</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="forgotpin.html">Forgot PIN</a></li>
+                </ul>
+            </div>
+            <div class="card col-2 col-md-2 col-lg-3" id="card-1" style="width: 18rem;">
+                <img src="images/amazon-pay.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Amazon Pay</h5>
+                  <p class="card-text">easy payment through Amazon pay</p>
+                  <a href="#" class="btn btn-primary">Go to Amazon pay</a>
+                </div>
+              </div>
+
+              <div class="card col-2 col-md-2 col-lg-3" id="card-2" style="width: 18rem;">
+                <img src="images/apple-pay.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apple Pay</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Go to Apple pay</a>
+                </div>
+              </div>
+
+              <div class="card col-2 col-md-2 col-lg-3" id="card-3" style="width: 18rem;">
+                <img src="images/google-pay.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Google Pay</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Go to Google pay</a>
+                </div>
+              </div>
+
+            
+        </div> 
+        
+        <div class="row first-row">
+            <div id="left-section" class="col-2 col-md-2 col-lg-3 "> 
+                <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="support.html">Help and Support</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="forgotpin.html">Forgot PIN</a></li>
+                </ul>
+            </div>
+            <div class="card col-2 col-md-2 col-lg-3" id="card-1" style="width: 18rem;">
+                <img src="images/amazon-pay.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Amazon Pay</h5>
+                  <p class="card-text">easy payment through Amazon pay</p>
+                  <a href="#" class="btn btn-primary">Go to Amazon pay</a>
+                </div>
+              </div>
+
+              <div class="card col-2 col-md-2 col-lg-3" id="card-2" style="width: 18rem;">
+                <img src="images/apple-pay.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apple Pay</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Go to Apple pay</a>
+                </div>
+              </div>
+
+              <div class="card col-2 col-md-2 col-lg-3" id="card-3" style="width: 18rem;">
+                <img src="images/google-pay.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Google Pay</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Go to Google pay</a>
+                </div>
+              </div>
+
+            
+        </div>
+        <!-- <div class="row">
+            <div class="upi col-10 col-md-5 col-lg-3">
+                <div class="upi-content">
+                    <h4>Quick UPI Payments</h4><br>
+                    <img src="images/amazon-pay.svg" alt="">
+                    <img src="images/apple-pay.svg" alt="">
+                    <img src="images/google-pay.svg" alt="">
+                    <img src="images/cc-paypal.svg" alt="">
+                </div>
+            </divd>
+
+            <div class="upi col-10 col-md-5 col-lg-3">
+                <h4>Quick UPI Payments</h4><br>
+                <div class="upi-content">
+                <img src="images/amazon-pay.svg" alt="">
+                <img src="images/apple-pay.svg" alt="">
+                <img src="images/google-pay.svg" alt="">
+                <img src="images/cc-paypal.svg" alt="">
+            </div>
+            </div>
+
+            <div class="upi col-10 col-md-5 col-lg-3">
+                <h4>Quick UPI Payments</h4><br>
+                <div class="upi-content">
+            <img src="images/amazon-pay.svg" alt="">
+            <img src="images/apple-pay.svg" alt="">
+            <img src="images/google-pay.svg" alt="">
+            <img src="images/cc-paypal.svg" alt="">
+            </div>
+        </div>
+
+            <div class="upi col-10 col-md-5 col-lg-3">
+                <h4>Quick UPI Payments</h4><br>
+                <div class="upi-content">
+
+                <img src="images/amazon-pay.svg" alt="">
+                <img src="images/apple-pay.svg" alt="">
+                <img src="images/google-pay.svg" alt="">
+                <img src="images/cc-paypal.svg" alt="">
+            </div>
+            </div>
+
+            <div class="upi col-10 col-md-5 col-lg-3">
+                <h4>Quick UPI Payments</h4><br>
+                <div class="upi-content">
+
+                <img src="images/amazon-pay.svg" alt="">
+                <img src="images/apple-pay.svg" alt="">
+                <img src="images/google-pay.svg" alt="">
+                <img src="images/cc-paypal.svg" alt="">
+            </div>
+        </div>
+
+            <div class="upi col-10 col-md-5 col-lg-3">
+                <h4>Quick UPI Payments</h4><br>
+                <div class="upi-content">
+            <img src="images/amazon-pay.svg" alt="">
+            <img src="images/apple-pay.svg" alt="">
+            <img src="images/google-pay.svg" alt="">
+            <img src="images/cc-paypal.svg" alt="">
+            </div>
+        </div> 
+    
+        
+        </div>-->
+
+        <div class="row img-grid">
+            <img class="col-12 col-md-6 col-lg-4" src="images/ADVERTICEMENT.png" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="images/Banking.png" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="images/ADVERTICEMENT.png" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="images/Banking.png" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="images/ADVERTICEMENT.png" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="images/Banking.png" alt="">
+
+        </div>
+        <div class="chat" id="chat-box">
+          <button id="help-close" onclick="helpClose()"><div id="chat-close">X</div></button>
+          <label id="chat-1" class="">Hai, How can i help you?</label>
+          <div class="chat-2"><input id="chat-2" type="text" placeholder="Type your message here..."><button id="send-button">></button></div>
+        </div>
+        <button id="help-botton" onclick="helpChat()"><div id="chat-min">
+          Help
+        </div></button>
+
+
+        <footer class="" id="">
+            
+           <p class="p-3"> &copy; copyright reserved arunkino</p>
+            
+        
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/js/jquery-1.8.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>$(document).ready(function(){
+      $("#chat-min").click(function(){
+        
+        if($('.chat').style.display=='none'){
+          $(".chat").show()
+          $("#chat-min").hide()
+        }
+      })
+    })</script>
+    
+    
+</body>
+</html>

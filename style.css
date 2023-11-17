@@ -1,0 +1,298 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(136, 118, 167);
+    
+}
+img{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.logo-section{
+    
+    position: relative;
+   
+   float: left;
+    
+}
+.login-section{
+   
+    position: relative;
+   
+    
+    float: left;
+    text-align: center; 
+    
+}
+.login-section input{
+    text-decoration: none;
+    border-radius: 1em;
+    width: 80%;
+    padding: .5em;
+}
+
+
+#welcome-image{
+    position: relative;
+    width: 80%;  
+    animation: anim;
+    animation-duration: 2s;
+    
+}
+@keyframes anim{
+   
+    50%{ transform: scale(1.3, 1.3);}
+}
+
+/* end of login--- */
+
+
+/* Home page-- */
+#head-section{
+    display: flex;
+    
+    align-items: center;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+header{
+box-shadow: 0 0 10px;
+
+}
+.more-icon{
+    display: block;
+    float: left;  
+}
+.more-icon:hover{
+    font-size: 100px;
+    color: brown;
+    
+}
+#more-button, #help-close{
+    border: none;
+    background: none;
+}
+#logo-head-img{
+    display: block;
+    float: left;
+    position: relative;
+    height: 4em;
+ 
+}
+#text-place{
+    display: block;
+    float: right;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    font-size: large;
+    color: hsl(0, 92%, 47%);
+}
+.search-box{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+}
+#search-bar{
+    display: block;
+    width: 80%;
+    position: absolute;
+    border-radius: 10px;
+}
+#search-icon{
+    display: block;
+    position: absolute;
+    right: 4.5rem;
+   
+    border: none;
+    background: none;
+}
+.icons{
+    display: block;
+    width: 50px;
+}
+#left-section{
+    
+    display: none;
+    /* margin-left: -6rem; */
+    height: 50vh;
+    align-items: center;
+    background-color: aliceblue;
+    position: fixed;
+    top: 6em;
+    left: 0;
+    z-index: 10;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(28, 28, 88);
+    
+}
+#left-section a{
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: -1em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#left-section a:hover{
+    color: aliceblue;
+    background-color: rgb(198, 149, 85);
+    border-radius: 10px;
+    
+}
+
+#left-section ul{
+    
+    list-style-type: none;
+}
+.upi img{
+    width: 100px;
+    padding: 1em;
+}
+.upi{
+    text-align: center;
+    border: 1px solid black;
+}
+.upi-content{
+   
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 10px;
+}
+@media screen and (min-width: 600px) {
+  #left-section{
+    width: 12em;
+  } 
+    
+}
+
+@media screen and (max-width: 599px) {
+    #left-section{
+        width: 7em;
+      } 
+   
+}
+
+/* ADVERTICEMENT-- */
+
+#carouselExampleIndicators{
+    width: 50em;
+    right: 0;
+    margin-left: 25em;
+}
+
+footer{
+    background-color: rgb(135, 170, 170);
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+}
+
+.img-grid img{
+    padding: 1rem;
+}
+.img-grid img:hover{
+   transform: scale(1.03);
+   opacity: 0.7;
+   box-shadow: 10px 10px 5px grey;
+}
+.first-row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    margin-top: 20px;
+    height: 5rem;
+    align-items: center;
+    background-color: rgb(15, 111, 111);
+}
+.card img{
+    width: 10rem;
+}
+.upi img{
+    display: block;
+}
+#card-1, #card-2,#card-3{
+    margin-top: 20px;
+    
+}
+.card:hover{
+    background-color: rgb(176, 222, 222);
+}
+.chat{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(218, 211, 170);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+    display: none;
+}
+#chat-1{
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    padding: .5rem 1rem;
+
+}
+#chat-close{
+    margin: 4px;
+    padding: 0 4px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20%;
+    position: relative;
+    right: 0;
+}
+#chat-close:hover{
+    background-color: red;
+}
+
+#chat-2{
+    position: absolute;
+    bottom: .5rem;
+    right: 0;
+    margin-right: 2rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+#send-button{
+    position: absolute;
+    bottom: .5rem;
+    right: 0;
+}
+#send-button:hover{
+    background-color: rgb(16, 199, 16);
+}
+
+#chat-min{
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid rgb(218, 211, 170);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+}
+#chat-min:hover{
+    color: antiquewhite;
+    background-color: rgb(221, 166, 94);
+    box-shadow: 10px 10px 5px grey;
+}
